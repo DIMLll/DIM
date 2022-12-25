@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+
+body {
+    background: rgb(63, 94, 251);
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+}
+
+fieldset {
+    width: 650px;
+    margin: 100px auto;
+    height: 380px;
+    background-color: rgb(115, 165, 68);
+    border-radius: 15px;
+    border: none;
+    user-select: none;
+}
+
+legend {
+    color: black;
+    background-color: rgb(162, 194, 126);
+    font-size: 25px;
+    border-radius: 10px;
+    width: 500px;
+    height: 30px;
+    line-height: 30px;
+    font-family: 'Pattaya', sans-serif;
+}
+
+input[type="tel"] {
+    position: relative;
+    bottom: 460px;
+    left: 330px;
+}
+
+input:not([type="date"]) {
+    border: 2px solid brown;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 15px 10px;
+    width: 240px;
+    height: 25px;
+    font-family: 'Pattaya', sans-serif;
+    font-size: 18px;
+}
+
+label {
+    position: relative;
+    bottom: 314px;
+    left: 340px;
+    font-size: 22px;
+    color: black;
+    font-family: 'Pattaya', sans-serif;
+}
+
+.d {
+    border-color: brown;
+    padding: 5px;
+    position: relative;
+    bottom: 300px;
+    left: 340px;
+    width: 240px;
+    height: 25px;
+    font-size: 18px;
+    font-family: 'Pattaya', sans-serif;
+}
+
+input:valid {
+    border-color: blue;
+}
+
+button {
+    width: 200px;
+    height: 41px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: pink;
+    border: 1px solid rgb(187, 90, 90);
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+    transition: all 200ms;
+}
+
+.but {
+    position: relative;
+    bottom: 210px;
+    left: 365px;
+}
+
+.bg1,
+.bg2 {
+    width: 197.5px;
+    height: 40px;
+    background-color: rgb(184, 139, 147);
+    border-radius: 10px;
+    border: 1px solid rgb(187, 90, 90);
+    position: relative;
+    bottom: 30px;
+}
+
+button:hover {
+    background-color: rgb(250, 179, 191);
+    transform: translate(0px, 5px);
+}
+
+button:active {
+    transform: translate(0px, 11.4px);
+}
