@@ -132,16 +132,6 @@ header nav div:hover {
     transform: scale(1);
 }
 
-@media screen and (max-width: 1300px) {
-    .letter .l {
-        transform: scale(1);
-    }
-
-    .letter .bl2 {
-        transform: translate(500px, 0);
-    }
-}
-
 .va {
     background-color: rgb(92, 153, 153);
     text-align: center;
